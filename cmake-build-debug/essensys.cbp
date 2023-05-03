@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="essensys"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Daria/fmi/essensys/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="essensys">
+				<Option output="D:/Daria/fmi/essensys/cmake-build-debug/essensys.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Daria/fmi/essensys/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 essensys"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="essensys/fast">
+				<Option output="D:/Daria/fmi/essensys/cmake-build-debug/essensys.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Daria/fmi/essensys/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 essensys/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Daria/fmi/essensys/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Daria/fmi/essensys/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/fmi/essensys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Daria/fmi/essensys/Angajat.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Angajat.h">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Asistent.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Asistent.h">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Atelier.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Atelier.h">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Autobuz.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Autobuz.h">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Camion.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Camion.h">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Data.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Data.h">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Director.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Director.h">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Gestionare_angajati.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Gestionare_angajati.h">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Masina.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Masina.h">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Mecanic.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Mecanic.h">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Standard.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/Standard.h">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/main.cpp">
+			<Option target="essensys"/>
+		</Unit>
+		<Unit filename="D:/Daria/fmi/essensys/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

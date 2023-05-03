@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\essensys.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\essensys.dir/objects.a @CMakeFiles\essensys.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -static-libstdc++ -static-libgcc -g   -Wl,--whole-archive CMakeFiles\essensys.dir/objects.a -Wl,--no-whole-archive  -o essensys.exe -Wl,--out-implib,libessensys.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\essensys.dir\linklibs.rsp
